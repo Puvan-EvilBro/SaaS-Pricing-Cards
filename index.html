@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans | SaaS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <div class="logo">NEXORA<span>.</span></div>
+            <h1>Plans that grow with you.</h1>
+            <p class="subtitle">
+                Simple, transparent pricing for individuals and teams.
+                Choose the perfect plan for your journey.
+            </p>
+        </header>
+
+        <div class="billing">
+            <span id="monthlyLabel" class="active">Monthly</span>
+
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span id="yearlyLabel">Yearly</span>
+            <span class="save">SAVE 20%</span>
+        </div>
+
+        <section class="pricing-cards">
+
+            <!-- STARTER PLAN -->
+            <article class="card">
+                <div class="plan-icon">✦</div>
+
+                <h2>Starter</h2>
+                <p class="description">Perfect for individuals starting out.</p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="0" data-yearly="0">0</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <p class="billing-info">Free forever</p>
+
+                <button class="btn secondary">Get Started</button>
+
+                <div class="features">
+                    <h4>What's included:</h4>
+                    <ul>
+                        <li>✓ 1 User account</li>
+                        <li>✓ 5 Projects</li>
+                        <li>✓ Basic analytics</li>
+                        <li>✓ 1 GB Storage</li>
+                        <li>✓ Community support</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- PROFESSIONAL PLAN -->
+            <article class="card popular">
+
+                <div class="ribbon">MOST POPULAR</div>
+
+                <div class="plan-icon">✧</div>
+
+                <h2>Professional</h2>
+                <p class="description">Everything you need to scale faster.</p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="19" data-yearly="15">19</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <p class="billing-info">Billed monthly</p>
+
+                <button class="btn primary">Choose Professional</button>
+
+                <div class="features">
+                    <h4>Everything in Starter, plus:</h4>
+                    <ul>
+                        <li>✓ 5 Team members</li>
+                        <li>✓ Unlimited projects</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ 50 GB Storage</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Custom integrations</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- ENTERPRISE PLAN -->
+            <article class="card best">
+
+                <div class="ribbon">BEST VALUE</div>
+
+                <div class="plan-icon">✺</div>
+
+                <h2>Enterprise</h2>
+                <p class="description">Advanced power for large organizations.</p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="49" data-yearly="39">49</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <p class="billing-info">Billed monthly</p>
+
+                <button class="btn secondary">Contact Sales</button>
+
+                <div class="features">
+                    <h4>Everything in Professional, plus:</h4>
+                    <ul>
+                        <li>✓ Unlimited team members</li>
+                        <li>✓ Unlimited projects</li>
+                        <li>✓ Enterprise analytics</li>
+                        <li>✓ Unlimited storage</li>
+                        <li>✓ 24/7 dedicated support</li>
+                        <li>✓ Advanced security</li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <footer>
+            <p>© 2026 Nexora. All rights reserved.</p>
+            <p>Simple pricing. Powerful possibilities.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
